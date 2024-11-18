@@ -1137,6 +1137,152 @@
 				)
 			)
 		)
+		(symbol "canhw:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "canhw:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -2308,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.025 87.63) (xy 200.025 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14a6cf6-7efd-4459-a437-f8264b80369d")
+	)
+	(wire
+		(pts
 			(xy 68.58 157.48) (xy 72.39 157.48)
 		)
 		(stroke
@@ -2486,6 +2642,16 @@
 		)
 		(uuid "81088370-a634-47e9-9703-18c82b701b71")
 	)
+	(text "Inverter with pull-down to ensure that FS MCU going down doesn't cut power"
+		(exclude_from_sim no)
+		(at 86.36 186.055 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a67bfcf2-818f-4c93-932f-75ae360cc252")
+	)
 	(text "5V LDO"
 		(exclude_from_sim no)
 		(at 224.155 85.09 0)
@@ -2495,6 +2661,26 @@
 			)
 		)
 		(uuid "ad80223c-f33e-4bdf-bd9c-6be9c91a0434")
+	)
+	(text "Overcurrent alert when current exceeds set threshold.\nWill be used to notify MCU when servo is getting close to stall"
+		(exclude_from_sim no)
+		(at 203.835 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b49ee3fd-5a98-4bab-be6b-71fda4b7b754")
+	)
+	(text "Rshunt < Vsense_max/Imax = 81.92mV/10A = 8.192 mOhm"
+		(exclude_from_sim no)
+		(at 65.405 42.545 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eab1456d-069c-4d12-b666-856eb96b0040")
 	)
 	(hierarchical_label "SCL_I2C"
 		(shape bidirectional)
@@ -3138,7 +3324,7 @@
 	)
 	(symbol
 		(lib_id "canhw:+5V")
-		(at 200.025 98.425 0)
+		(at 200.025 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3147,7 +3333,7 @@
 		(fields_autoplaced yes)
 		(uuid "367c6361-ba2b-4b52-a33f-9e69dd9becc3")
 		(property "Reference" "#PWR028"
-			(at 200.025 102.235 0)
+			(at 200.025 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3342,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.025 93.98 0)
+			(at 200.025 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.025 98.425 0)
+			(at 200.025 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 98.425 0)
+			(at 200.025 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.025 98.425 0)
+			(at 200.025 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "ECH8420-TL-H"
 			(at 147.32 158.7499 0)
 			(effects
 				(font
@@ -3525,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ech8420-d.pdf"
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -3568,6 +3754,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4216,6 +4410,76 @@
 			(project "Motor Control Board"
 				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4/6d921c46-a69c-4b88-8fde-0dba583b7bde"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "canhw:Polyfuse")
+		(at 200.025 94.615 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94762562-d1be-49b3-8ff1-5dbd0f026387")
+		(property "Reference" "F?"
+			(at 202.565 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse 1A"
+			(at 202.565 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.295 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.025 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 200.025 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "540f43c6-427c-4c61-bb09-2d78f12b871e")
+		)
+		(pin "1"
+			(uuid "59899e2a-1a23-4654-9450-2a5e1732a74b")
+		)
+		(instances
+			(project "motor_control_board"
+				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4/6d921c46-a69c-4b88-8fde-0dba583b7bde"
+					(reference "F?")
 					(unit 1)
 				)
 			)

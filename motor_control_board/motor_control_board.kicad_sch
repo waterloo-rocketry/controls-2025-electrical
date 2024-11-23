@@ -5198,7 +5198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 99.695 97.155 0)
 			(effects
 				(font
@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 153.035 181.61 0)
 			(effects
 				(font
@@ -5333,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 56.515 182.245 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "motor-control:HARWIN_M80-8510442"
 			(at 223.52 140.97 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "motor-control:HARWIN_M80-5000000M5-02-333-00-000"
 			(at 83.185 98.425 0)
 			(effects
 				(font
@@ -5607,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 111.125 139.065 0)
 			(effects
 				(font
@@ -5761,7 +5761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 95.25 182.245 0)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba78fb2-4952-425d-8a9e-f9cc704ebfce")
-		(property "Reference" "R?"
+		(property "Reference" "R26"
 			(at 231.14 91.4399 0)
 			(effects
 				(font
@@ -6119,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 230.251 92.964 90)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 		(instances
 			(project ""
 				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4"
-					(reference "R?")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6328,7 +6328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 156.845 105.41 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 		(fields_autoplaced yes)
 		(uuid "76201e0b-7ce3-467e-8ab5-60707095baf3")
 		(property "Reference" "J6"
-			(at 156.845 133.985 0)
+			(at 156.845 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,14 +6415,14 @@
 			)
 		)
 		(property "Value" "Harwin_M80-8510442"
-			(at 156.845 136.525 0)
+			(at 156.845 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "motor-control:HARWIN_M80-8510442"
 			(at 156.21 141.605 0)
 			(effects
 				(font
@@ -6498,7 +6498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
 			(at 33.02 97.155 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 31.75 182.245 0)
 			(effects
 				(font
@@ -6783,7 +6783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:connector_Harwin_G125–MG10605M4P"
 			(at 80.645 147.32 0)
 			(effects
 				(font
@@ -6865,7 +6865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 45.085 182.245 0)
 			(effects
 				(font
@@ -6998,7 +6998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 19.685 182.245 0)
 			(effects
 				(font
@@ -7065,7 +7065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 255.651 147.574 90)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 99.695 142.24 0)
 			(effects
 				(font
@@ -7434,7 +7434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "motor-control:HARWIN_M80-5400642"
 			(at 128.905 105.41 0)
 			(effects
 				(font
@@ -7646,7 +7646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 81.28 182.245 0)
 			(effects
 				(font
@@ -7711,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -7776,7 +7776,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 156.845 96.52 0)
 			(effects
 				(font
@@ -7945,7 +7945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 132.08 182.245 0)
 			(effects
 				(font
@@ -8010,7 +8010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 235.204 85.344 90)
 			(effects
 				(font
@@ -8078,7 +8078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 247.269 139.954 90)
 			(effects
 				(font
@@ -8146,7 +8146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 179.959 140.589 90)
 			(effects
 				(font
@@ -8216,7 +8216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 186.3852 99.06 0)
 			(effects
 				(font
@@ -8286,7 +8286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "canhw_footprints:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
 			(at 29.21 149.225 0)
 			(effects
 				(font
@@ -8365,7 +8365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 188.341 148.209 90)
 			(effects
 				(font
@@ -8435,7 +8435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 198.12 95.25 0)
 			(effects
 				(font

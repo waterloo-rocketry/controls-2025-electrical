@@ -3385,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 125.73) (xy 109.855 130.175)
+			(xy 109.855 123.19) (xy 109.855 130.175)
 		)
 		(stroke
 			(width 0)
@@ -4747,6 +4747,17 @@
 		)
 		(uuid "9856fc0f-e27d-43d2-82d6-13e94b7eb8db")
 	)
+	(label "Batt+"
+		(at 109.855 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c7e7be8-55eb-4b6e-a9b4-7b130375d50d")
+	)
 	(label "ICSPDAT_FS"
 		(at 48.26 146.685 180)
 		(fields_autoplaced yes)
@@ -5037,72 +5048,6 @@
 			(project "Motor Control Board"
 				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "canhw:+12V")
-		(at 109.855 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14c128fd-b5f6-4522-873b-f10889d8b8c3")
-		(property "Reference" "#PWR011"
-			(at 109.855 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 109.855 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.855 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.855 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 109.855 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "409d6f88-627b-4f98-b12d-663da18af433")
-		)
-		(instances
-			(project "Motor Control Board"
-				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)

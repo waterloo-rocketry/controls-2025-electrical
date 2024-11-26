@@ -43,12 +43,12 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -491,7 +491,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR",
+        "netclass": "Default",
         "pattern": "+5V"
       },
       {

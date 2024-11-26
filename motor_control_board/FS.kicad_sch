@@ -1979,8 +1979,8 @@
 		(uuid "f67e38a0-efb1-45eb-940f-6fa3730c7bfc")
 	)
 	(no_connect
-		(at 219.71 87.63)
-		(uuid "0dcf4707-a7e2-4d89-96e8-c1faff21f959")
+		(at 219.71 95.25)
+		(uuid "237d2263-8618-4b10-989f-f7ccb0775b28")
 	)
 	(no_connect
 		(at 182.88 105.41)
@@ -1991,20 +1991,20 @@
 		(uuid "3d57428a-d832-4f86-9e9e-00c833a6aaea")
 	)
 	(no_connect
+		(at 219.71 100.33)
+		(uuid "5951c50f-5fe4-41bc-a1ee-58b59c6c482f")
+	)
+	(no_connect
 		(at 219.71 97.79)
 		(uuid "6a6c1199-54d8-4f6d-a5fa-6cd454b55721")
 	)
 	(no_connect
-		(at 219.71 102.87)
+		(at 219.71 92.71)
 		(uuid "b0e6abf5-ecdf-482f-870c-87a4ecfaa7c9")
 	)
 	(no_connect
 		(at 182.88 90.17)
 		(uuid "b455bd50-9832-4271-b3fc-919ccde43723")
-	)
-	(no_connect
-		(at 219.71 105.41)
-		(uuid "c169ad48-7d33-4eee-82a4-59dbdf94551d")
 	)
 	(no_connect
 		(at 182.88 92.71)
@@ -2840,7 +2840,7 @@
 	)
 	(hierarchical_label "ENC2"
 		(shape input)
-		(at 219.71 100.33 0)
+		(at 219.71 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2852,7 +2852,7 @@
 	)
 	(hierarchical_label "FS_OVER"
 		(shape output)
-		(at 219.71 92.71 0)
+		(at 219.71 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2924,7 +2924,7 @@
 	)
 	(hierarchical_label "FET"
 		(shape output)
-		(at 219.71 95.25 0)
+		(at 219.71 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2948,7 +2948,7 @@
 	)
 	(hierarchical_label "PWM_FS"
 		(shape output)
-		(at 219.71 90.17 0)
+		(at 219.71 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

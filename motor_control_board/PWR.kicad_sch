@@ -2766,6 +2766,17 @@
 		)
 		(uuid "eab1456d-069c-4d12-b666-856eb96b0040")
 	)
+	(label "LDO_OUT"
+		(at 200.025 100.965 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb510eb1-3ff6-4f03-9a2e-3199efed4da4")
+	)
 	(hierarchical_label "SCL_I2C"
 		(shape bidirectional)
 		(at 73.66 81.28 180)

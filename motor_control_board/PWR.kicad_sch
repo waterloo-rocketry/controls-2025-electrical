@@ -3243,7 +3243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:SOT230P700X180-4N"
+		(property "Footprint" "canhw_footprints:SOT230P700X180-4N"
 			(at 235.585 114.935 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:SOT65P280X110-8N"
+		(property "Footprint" "canhw_footprints:SOT65P280X110-8N"
 			(at 128.27 76.2 0)
 			(effects
 				(font

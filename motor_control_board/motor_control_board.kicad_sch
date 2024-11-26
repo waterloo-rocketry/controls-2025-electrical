@@ -5186,7 +5186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:HARWIN_M80-8510442"
+		(property "Footprint" "canhw_footprints:HARWIN_M80-8510442"
 			(at 223.52 140.97 0)
 			(effects
 				(font
@@ -5259,7 +5259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:HARWIN_M80-5000000M5-02-333-00-000"
+		(property "Footprint" "canhw_footprints:HARWIN_M80-5000000M5-02-333-00-000"
 			(at 83.185 98.425 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:HARWIN_M80-8510442"
+		(property "Footprint" "canhw_footprints:HARWIN_M80-8510442"
 			(at 156.21 141.605 0)
 			(effects
 				(font
@@ -7146,7 +7146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "motor-control:HARWIN_M80-5400642"
+		(property "Footprint" "canhw_footprints:HARWIN_M80-5400642"
 			(at 128.905 105.41 0)
 			(effects
 				(font

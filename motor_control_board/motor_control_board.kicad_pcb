@@ -226,7 +226,7 @@
 	(net 81 "unconnected-(U3-RC2-Pad13)")
 	(net 82 "unconnected-(U5-RB0-Pad21)")
 	(net 83 "/Power/LDO_OUT")
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "canhw_footprints:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "0f606d25-5d4c-40ab-83d6-10b473cff594")
 		(at 153.9494 93.4974)
@@ -344,7 +344,7 @@
 			(uuid "4511c7c8-642f-4134-aef8-b09e28166c65")
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "13892843-fd48-4a48-87ea-3c89f126e38f")
 		(at 191.9986 88.6714)
@@ -579,7 +579,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "138fd42d-92ab-481f-85c3-e9bfaf3f7063")
 		(at 186.4106 82.7786 -90)
@@ -792,7 +792,7 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
+	(footprint "canhw_footprints:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "18882957-5052-4832-b3ad-2f703eefff2f")
 		(at 188.8236 74.5934)
@@ -1086,7 +1086,7 @@
 			)
 		)
 	)
-	(footprint "motor-control:HARWIN_M80-5400642"
+	(footprint "canhw_footprints:HARWIN_M80-5400642"
 		(layer "F.Cu")
 		(uuid "29006eb3-df5c-4ecf-99ca-8bbd0f04b430")
 		(at 174.8028 60.055351 180)
@@ -1586,7 +1586,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "canhw_footprints:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "29316c12-6ca4-4397-a3d9-a3722314ccf5")
 		(at 156.0068 88.265)
@@ -1766,7 +1766,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "canhw_footprints:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "2bf0d3a6-1b62-4c4e-b1ba-2e74e80d964a")
 		(at 156.0068 65.786)
@@ -1946,7 +1946,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "344a69e0-b191-47f6-a971-01bb501253d8")
 		(at 168.656 67.818)
@@ -2159,7 +2159,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "37243cb0-bb86-49d1-b599-4fe75d23f437")
 		(at 162.1282 71.3232 180)
@@ -2372,7 +2372,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3df58488-b79d-4825-b717-ae693bafbe6e")
 		(at 162.1282 76.835)
@@ -2585,7 +2585,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4a9211d0-0454-4ca7-bcbf-e126b8434823")
 		(at 188.8236 69.7738)
@@ -2798,7 +2798,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "canhw_footprints:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "54241769-2b7d-43de-9b69-6c0b9b49f230")
 		(at 153.9494 60.5028)
@@ -2916,7 +2916,7 @@
 			(uuid "57143860-1b48-46a8-8940-465deec6782d")
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "556e94f8-82d8-45bd-bb19-133dc7c57692")
 		(at 168.4782 86.5124)
@@ -3129,7 +3129,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "57072f88-fed0-4831-9e1c-fc9f3bc12006")
 		(at 175.6664 76.0476 -90)
@@ -3342,7 +3342,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "62493897-83b3-4516-86e0-7518435c861b")
 		(at 191.9986 86.2584)
@@ -3577,7 +3577,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "canhw_footprints:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "63a2ed0f-3db2-425e-8fcf-91d02b5db3cb")
 		(at 191.9732 93.4974)
@@ -3695,7 +3695,7 @@
 			(uuid "d10ea934-1daa-4cc3-b1b3-78278ecf8589")
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6e69d3e6-9cba-4d45-b31e-f79dd5b1cca6")
 		(at 187.3758 65.2018 180)
@@ -3908,7 +3908,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "78a45bbe-09e3-4161-a3fd-83547553907f")
 		(at 188.8236 77.3938)
@@ -4121,7 +4121,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8107d49d-5392-4f41-a523-6ffa606091c7")
 		(at 175.6664 72.2376 90)
@@ -4334,7 +4334,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "82642c6f-fdd7-4092-966f-0bbda6a531c2")
 		(at 179.6288 67.8434 180)
@@ -4547,7 +4547,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8604c3b5-e3ce-40fe-80f2-0e3e440116ec")
 		(at 185.928 86.487)
@@ -4760,7 +4760,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "862bca01-1094-4f86-8da7-046091389640")
 		(at 185.9534 91.1352 180)
@@ -4973,7 +4973,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8d77a920-26b1-4ef0-9a7d-05de670d0935")
 		(at 164.6428 86.5124)
@@ -5186,7 +5186,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "92e6970e-d46f-4422-9c93-6d967c3c26c8")
 		(at 188.8236 71.8058 180)
@@ -5399,7 +5399,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9af80538-b9d6-44eb-95d0-df8d802e79e3")
 		(at 187.4012 67.3862 180)
@@ -5612,7 +5612,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+	(footprint "canhw_footprints:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "9db2a472-4db8-445f-935f-776fa9005b2e")
 		(at 169.7736 82.7532)
@@ -5928,7 +5928,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a069d8ae-e882-44bd-b557-e07747379755")
 		(at 164.8714 82.7024 90)
@@ -6141,7 +6141,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a4f93f9f-9cae-4a97-8cbe-fd9e8a793ce1")
 		(at 181.9148 86.5378 180)
@@ -6354,7 +6354,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ad8d663f-93df-404a-9df7-9fb2ee74ab57")
 		(at 191.9986 64.9986)
@@ -6589,7 +6589,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+	(footprint "canhw_footprints:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "b2677a4b-4306-4f3c-b54e-2c51047be508")
 		(at 181.5338 82.6516 180)
@@ -6905,7 +6905,7 @@
 			)
 		)
 	)
-	(footprint "motor-control:HARWIN_M80-5000000M5-02-333-00-000"
+	(footprint "canhw_footprints:HARWIN_M80-5000000M5-02-333-00-000"
 		(layer "F.Cu")
 		(uuid "b3104c9a-f0aa-40c6-9d87-a6f9a22635f6")
 		(at 156.7942 77.007851 -90)
@@ -7357,7 +7357,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "canhw_footprints:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "bb6482d2-6016-4dea-866d-a2bd3573d9f4")
 		(at 152.6794 88.265)
@@ -7537,7 +7537,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bbd1d577-6f19-4826-b761-b40da232c37b")
 		(at 162.1282 78.867 180)
@@ -7750,7 +7750,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bd09c8bb-10a9-44b0-8293-f7e0286d673e")
 		(at 185.928 93.3704 180)
@@ -7963,7 +7963,7 @@
 			)
 		)
 	)
-	(footprint "motor-control:HARWIN_M80-8510442"
+	(footprint "canhw_footprints:HARWIN_M80-8510442"
 		(layer "F.Cu")
 		(uuid "c0718f03-6a24-474a-94c6-3eebd5c26d37")
 		(at 162.18535 93.6538)
@@ -8288,7 +8288,7 @@
 			(uuid "9cfaf32c-1a3e-4626-849e-0862fc1e931c")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "canhw_footprints:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "c282c4ef-b6c7-4408-a1e8-6f80d2f15895")
 		(at 191.9732 60.5028)
@@ -8406,7 +8406,7 @@
 			(uuid "9e83e4ef-85bb-4ee0-869b-56ef6ad5aa44")
 		)
 	)
-	(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+	(footprint "canhw_footprints:SSOP-28_5.3x10.2mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "ccd06f3f-8e95-4ca3-b505-aa756e872219")
 		(at 181.5592 74.314 180)
@@ -8914,7 +8914,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "canhw_footprints:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "d2a0b3b2-cccf-4a77-b74f-74cc1d7e9318")
 		(at 152.6794 65.786)
@@ -9094,7 +9094,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e0edacf6-d3e3-4b15-93e5-28b018f97f8b")
 		(at 164.6428 67.818)
@@ -9307,7 +9307,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+	(footprint "canhw_footprints:SSOP-28_5.3x10.2mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "e1bb0dc7-5f03-46e3-aceb-996431e6637d")
 		(at 169.7736 74.314)
@@ -10196,7 +10196,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f17ed180-612f-4a93-b048-c69478b6efb4")
 		(at 183.515 67.8434)
@@ -10409,7 +10409,7 @@
 			)
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
+	(footprint "canhw_footprints:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "f67d3eb3-ade5-40a7-b2a1-bd91dd0714b2")
 		(at 162.3568 74.06 180)
@@ -10703,7 +10703,7 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f90d3b3a-af7a-4d92-920e-c7c1e1c7a96c")
 		(at 191.9986 67.3862)
@@ -10938,7 +10938,7 @@
 			)
 		)
 	)
-	(footprint "motor-control:HARWIN_M80-8510442"
+	(footprint "canhw_footprints:HARWIN_M80-8510442"
 		(layer "F.Cu")
 		(uuid "fb1e3d77-7aad-489e-905b-59a27d1d4340")
 		(at 162.0774 60.3504 180)
@@ -11263,7 +11263,7 @@
 			(uuid "ed720669-803b-4d35-b80e-11646d52a980")
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "canhw_footprints:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "00026c5e-a01c-42d5-983a-902c7fe22055")
 		(at 161.0106 74.64 90)
@@ -11692,7 +11692,7 @@
 			(uuid "663f0af6-cc5c-4961-8471-d09b0ed0bdb3")
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:OnSemi_ECH8"
+	(footprint "canhw_footprints:OnSemi_ECH8"
 		(layer "B.Cu")
 		(uuid "09d7f096-15d1-424a-8a52-98b30929ef65")
 		(at 180.594 60.2555 180)
@@ -11995,7 +11995,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0deb9ade-900e-47c5-b9a9-39fc0729ca15")
 		(at 171.1198 84.9122 -90)
@@ -12214,7 +12214,7 @@
 			)
 		)
 	)
-	(footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0f3ff361-a41b-45ff-9e21-78334bd38207")
 		(at 171.2214 79.9084 -90)
@@ -12433,7 +12433,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0fd9cfac-3c89-41d5-b034-66b5b3a8ec6d")
 		(at 181.61 70.6882)
@@ -12652,7 +12652,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "106fd9ae-a925-4e13-861c-c018af809ff1")
 		(at 173.0756 84.9122 -90)
@@ -12871,7 +12871,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "1101e663-600e-4b65-843f-2e8155c530ff")
 		(at 181.8894 80.7466 90)
@@ -13090,7 +13090,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "14df074c-7fae-44be-80ec-3c42a156bf32")
 		(at 163.1696 74.6506 -90)
@@ -13309,7 +13309,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+	(footprint "canhw_footprints:SOP-4_3.8x4.1mm_P2.54mm"
 		(layer "B.Cu")
 		(uuid "17846882-675a-4bbf-9cee-8f6e62d71b03")
 		(at 176.8348 74.7268 90)
@@ -13642,7 +13642,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
+	(footprint "canhw_footprints:Nexperia_CFP3_SOD-123W"
 		(layer "B.Cu")
 		(uuid "2442d1fa-7a24-4c36-ac21-948f7865953b")
 		(at 177.673 94.4626)
@@ -13959,7 +13959,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
+	(footprint "canhw_footprints:Nexperia_CFP3_SOD-123W"
 		(layer "B.Cu")
 		(uuid "40340bd1-651b-43ab-ae3e-e1de4eb2c8ec")
 		(at 175.26 68.5546 -90)
@@ -14290,7 +14290,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "5749ea49-1e19-4495-b6d0-e2c141138e86")
 		(at 179.324 84.9884 90)
@@ -14509,7 +14509,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "5c62de60-64a3-4bc2-8462-64ef788bf925")
 		(at 184.3024 60.1472 -90)
@@ -14728,7 +14728,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "7129a921-e8f0-4f5b-8490-097997edbd5a")
 		(at 181.61 72.6948 180)
@@ -14947,7 +14947,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "8671914e-6a5c-4096-8040-2ca6a71bb56f")
 		(at 186.3598 60.1472 90)
@@ -15376,7 +15376,7 @@
 			(uuid "ba9d8924-a05b-43df-83e6-bafebcb0b64d")
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-5"
+	(footprint "canhw_footprints:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "a4cec5c3-57ac-44bd-abd1-d354b0c736f0")
 		(at 176.1744 84.8755)
@@ -15681,7 +15681,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_SOD-128"
+	(footprint "canhw_footprints:D_SOD-128"
 		(layer "B.Cu")
 		(uuid "adceb3b4-d7d8-4451-a5fd-01c43d9c421e")
 		(at 175.1584 60.1472)
@@ -16024,7 +16024,7 @@
 			)
 		)
 	)
-	(footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "af70037f-0425-4eed-a0f1-e50a2ad4cf8d")
 		(at 161.0106 79.6544 -90)
@@ -16243,7 +16243,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "af8ace0e-6544-4aec-9f5b-dc1c7bec5006")
 		(at 169.6466 74.4474 -90)
@@ -16462,7 +16462,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "b2412ffe-085b-493f-9de3-bef781db4431")
 		(at 173.5074 74.4474 -90)
@@ -16681,7 +16681,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "b832fd18-d5ed-4784-9d83-cb745a49d41b")
 		(at 171.577 74.4474 -90)
@@ -16900,7 +16900,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "b8a13946-628d-4878-9a1d-ae0799965c00")
 		(at 164.2364 78.6384)
@@ -17119,7 +17119,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "bf38c240-47f2-435a-ae46-2c5ccaa8ecb7")
 		(at 177.7746 80.7466 90)
@@ -17338,7 +17338,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "c4efcd36-c0f8-4db9-b4da-7528c5b768ec")
 		(at 169.3926 60.198 180)
@@ -17557,7 +17557,7 @@
 			)
 		)
 	)
-	(footprint "motor-control:SOT65P280X110-8N"
+	(footprint "canhw_footprints:SOT65P280X110-8N"
 		(layer "B.Cu")
 		(uuid "cdfff8d5-a44b-4ce0-9c90-18873bb3e930")
 		(at 166.3446 74.295)
@@ -17909,7 +17909,7 @@
 			(uuid "74800de7-de5d-44c7-a6a4-fc7663289b4f")
 		)
 	)
-	(footprint "motor-control:SOT230P700X180-4N"
+	(footprint "canhw_footprints:SOT230P700X180-4N"
 		(layer "B.Cu")
 		(uuid "d1a41d75-e82a-4023-bdc9-e46128e91519")
 		(at 166.1668 83.947 -90)
@@ -18257,7 +18257,7 @@
 			(uuid "00af4f8a-819d-441c-839e-fc18d56e9152")
 		)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "canhw_footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "d31d8ff3-8271-4dd6-bb51-eb7678bf2813")
 		(at 181.61 68.6816 180)
@@ -18476,7 +18476,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "de838822-141b-4f42-9ada-6aa34a0938a1")
 		(at 179.832 80.7466 -90)
@@ -18695,7 +18695,7 @@
 			)
 		)
 	)
-	(footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(footprint "canhw_footprints:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "df2de2d5-3bdd-4591-bd4a-0ca905fa8b23")
 		(at 172.3644 94.4118)
@@ -18914,7 +18914,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "canhw_footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "f24bb9fe-a0b7-4ca8-8737-ea98bcf74096")
 		(at 168.021 78.6384 180)
@@ -19133,7 +19133,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
+	(footprint "canhw_footprints:Nexperia_CFP3_SOD-123W"
 		(layer "B.Cu")
 		(uuid "f665c852-c874-4c44-9d8e-f9c2ef77b924")
 		(at 177.5968 68.5546 -90)

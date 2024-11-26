@@ -1,4 +1,4 @@
-23884651681594026
+23910605051954884
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96684,6 +96684,27 @@ CUI_UJ2-BH-1-TH
 6
 6
 canhw_footprints
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+canhw_footprints
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8G http://www.abracon.com/Resonators/ABM8G.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+canhw_footprints
+D_SOD-128
+D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf
+D_SOD-128
+0
+2
+2
+canhw_footprints
 FXLS8974CFR3_NXP
 
 FXLS8974CFR3 
@@ -96705,6 +96726,34 @@ FXLS8974CFR3
 10
 10
 canhw_footprints
+Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+canhw_footprints
+HARWIN_M80-5000000M5-02-333-00-000
+
+
+0
+2
+2
+canhw_footprints
+HARWIN_M80-5400642
+
+
+0
+6
+6
+canhw_footprints
+HARWIN_M80-8510442
+
+
+0
+8
+8
+canhw_footprints
 ICM-20948
 
 
@@ -96722,6 +96771,13 @@ canhw_footprints
 Jumper_952-1474-2-ND
 
 
+0
+2
+2
+canhw_footprints
+LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
 0
 2
 2
@@ -96747,12 +96803,33 @@ Mag Switch
 3
 3
 canhw_footprints
+MountingHole_3.2mm_M3_DIN965_Pad
+Mounting Hole 3.2mm, M3, DIN965
+mounting hole 3.2mm m3 din965
+0
+1
+1
+canhw_footprints
+Nexperia_CFP3_SOD-123W
+Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf
+CFP3 SOD-123W
+0
+2
+2
+canhw_footprints
 OV5640
 
 
 0
 2
 2
+canhw_footprints
+OnSemi_ECH8
+On Semiconductor ECH8, https://www.onsemi.com/pub/Collateral/318BF.PDF
+ECH8 SOT28-FL SOT-28-FL
+0
+8
+8
 canhw_footprints
 PinSocket_4x2.54_SMD_90deg_952-3198-1-ND
 
@@ -96796,6 +96873,20 @@ RF_connector_SMA_3-1478978-1_BIG_PADS
 10
 2
 canhw_footprints
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+canhw_footprints
+R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+canhw_footprints
 SM74611
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
@@ -96803,12 +96894,54 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 8
 2
 canhw_footprints
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+canhw_footprints
 SON125P300X500X100-8N
 
 
 0
 8
 8
+canhw_footprints
+SOP-4_3.8x4.1mm_P2.54mm
+SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+canhw_footprints
+SOT-23-5
+SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+canhw_footprints
+SOT65P280X110-8N
+
+
+0
+8
+8
+canhw_footprints
+SOT230P700X180-4N
+
+
+0
+4
+4
+canhw_footprints
+SSOP-28_5.3x10.2mm_P0.65mm
+28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+28
+28
 canhw_footprints
 SW_PTS_647_SM38_SMTR2_LFS
 
@@ -96830,6 +96963,13 @@ TQFP QFP
 0
 48
 48
+canhw_footprints
+TestPoint_Keystone_5000-5004_Miniature
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
 canhw_footprints
 XCVR_RFM95W-915S2
 
@@ -96893,38 +97033,3 @@ raven4
 0
 10
 10
-motor-control
-HARWIN_M80-5000000M5-02-333-00-000
-
-
-0
-2
-2
-motor-control
-HARWIN_M80-5400642
-
-
-0
-6
-6
-motor-control
-HARWIN_M80-8510442
-
-
-0
-8
-8
-motor-control
-SOT65P280X110-8N
-
-
-0
-8
-8
-motor-control
-SOT230P700X180-4N
-
-
-0
-4
-4

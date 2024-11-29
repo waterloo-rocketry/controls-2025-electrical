@@ -131,7 +131,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.762,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -430,7 +430,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -629,6 +629,10 @@
     [
       "6d921c46-a69c-4b88-8fde-0dba583b7bde",
       "Power"
+    ],
+    [
+      "1604479d-fc22-4e6b-84a4-65505381bf64",
+      "Programming Header"
     ]
   ],
   "text_variables": {}

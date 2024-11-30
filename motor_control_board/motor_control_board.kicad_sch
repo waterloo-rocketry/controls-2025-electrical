@@ -2895,12 +2895,6 @@
 		(uuid "259abb2f-7a48-4fb7-8862-3eeff736b3b5")
 	)
 	(junction
-		(at 106.045 107.315)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50c3d23f-8288-470f-ab7e-ddbe255d21a7")
-	)
-	(junction
 		(at 238.76 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3163,16 +3157,6 @@
 			(type default)
 		)
 		(uuid "238da98c-cdd8-48ce-bac5-14321038122f")
-	)
-	(wire
-		(pts
-			(xy 106.045 104.14) (xy 106.045 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2476759c-2bc7-4945-8b72-8a8c703da81a")
 	)
 	(wire
 		(pts
@@ -7712,72 +7696,6 @@
 			(project ""
 				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "canhw:PWR_FLAG")
-		(at 106.045 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac566fd7-dfa2-4d1d-bcaf-2f71bc3863c0")
-		(property "Reference" "#FLG02"
-			(at 106.045 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.045 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.045 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.045 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74631f3e-0816-468f-8308-0362d5271ab7")
-		)
-		(instances
-			(project ""
-				(path "/ced26b11-410b-4897-bfe1-68b095b3fef4"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

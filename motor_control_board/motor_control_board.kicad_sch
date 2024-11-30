@@ -3140,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 54.61) (xy 106.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20851fb4-58aa-4fd6-804b-5f2ccafb73cc")
-	)
-	(wire
-		(pts
 			(xy 168.275 84.455) (xy 168.275 78.105)
 		)
 		(stroke
@@ -3277,6 +3267,16 @@
 			(type default)
 		)
 		(uuid "3877374c-d689-4260-8d4e-a1aa3b3503ae")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c94ee2-b36c-490e-ada4-870afaa00fb7")
 	)
 	(wire
 		(pts
@@ -3427,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "5b8b84c1-696a-4c13-81ac-2d249d6db9e1")
-	)
-	(wire
-		(pts
-			(xy 101.6 49.53) (xy 114.3 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebfeb47-3419-4b83-b71b-f6abc0a8cb4f")
 	)
 	(wire
 		(pts
@@ -3670,16 +3660,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 101.6 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806b7142-ddc6-4f32-929b-4c4252b30675")
-	)
-	(wire
-		(pts
 			(xy 16.51 29.21) (xy 39.37 29.21)
 		)
 		(stroke
@@ -3737,6 +3717,26 @@
 			(type default)
 		)
 		(uuid "87b0a8c1-1906-4eab-8edb-e7fcbbca4870")
+	)
+	(wire
+		(pts
+			(xy 78.74 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f9210a-3739-4da5-8389-c4d75003bf67")
+	)
+	(wire
+		(pts
+			(xy 102.87 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e6bb14-1285-4f17-b069-d9086cd0c7e4")
 	)
 	(wire
 		(pts
@@ -4030,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 101.6 74.93)
+			(xy 78.74 80.01) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4107,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "cacb5ca9-fb36-4cfb-8565-812d6e761923")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdc3144-529f-4c04-9982-591cf57058c4")
 	)
 	(wire
 		(pts
@@ -4277,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "e7f2cacb-eb5a-4e0d-a0d2-b230409dd133")
-	)
-	(wire
-		(pts
-			(xy 106.68 80.01) (xy 78.74 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b1d68f-9421-4821-90b1-03bb9e129e39")
 	)
 	(wire
 		(pts
@@ -8722,7 +8722,7 @@
 			(uuid "a2997718-fc81-46dd-bc63-be158f2f699a")
 		)
 		(pin "ICSPDAT_FS" bidirectional
-			(at 78.74 74.93 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +8732,7 @@
 			(uuid "73da221d-83ef-4b02-bd99-9e783b81fa9f")
 		)
 		(pin "ICSPCLK_FS" output
-			(at 78.74 80.01 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

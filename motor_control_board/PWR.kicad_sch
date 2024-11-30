@@ -4404,7 +4404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Polyfuse 1A"
+		(property "Value" "Polyfuse 0.5A"
 			(at 202.565 95.885 0)
 			(effects
 				(font

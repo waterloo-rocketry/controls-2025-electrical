@@ -4528,16 +4528,6 @@
 		)
 		(uuid "30e9c3d6-25cf-47e7-88ed-225716fd670f")
 	)
-	(text "EEE-FT1E101AP\n"
-		(exclude_from_sim no)
-		(at 50.8 117.475 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4457b078-3127-4e42-8a5d-362edd9afa53")
-	)
 	(text "Servo Connector"
 		(exclude_from_sim no)
 		(at 111.125 90.805 0)
@@ -5632,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Value" "Harwin_M80-5000000M5-02-333-00-000"
+		(property "Value" "TE_2-1437667-4"
 			(at 35.56 95.885 0)
 			(effects
 				(font
